@@ -39,7 +39,7 @@ namespace DataStructureDemo
                 head = newNode;
                 head.next = temp;
             }
-            Console.WriteLine();
+            Console.WriteLine("{0} inserted into linked list", newNode.data);
         }
         internal void Display()
         {
