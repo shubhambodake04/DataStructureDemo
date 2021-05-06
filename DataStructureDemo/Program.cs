@@ -6,7 +6,9 @@ namespace DataStructureDemo
     {
         static void Main(string[] args)
         {
-            LinkedList list = new LinkedList();
+            //Linked List
+
+            /*LinkedList list = new LinkedList();
             list.Add(56);
             list.Add(30);
             list.Add(70);
@@ -32,9 +34,21 @@ namespace DataStructureDemo
 
             list.DeleteLast();
             list.Display();
-            Console.WriteLine("-----------------------");
+            Console.WriteLine("-----------------------");*/
 
-            
+            //Stack
+            LinkedListStack list = new LinkedListStack();
+            list.push(56);
+            list.push(30);
+            list.push(70);
+            Console.WriteLine("------------------");
+            list.Display();
+            Console.WriteLine("------------------");
+            list.IsEmpty();
+            Console.WriteLine("------------------");
+            list.Display();
+
+
         }
     }
 }
