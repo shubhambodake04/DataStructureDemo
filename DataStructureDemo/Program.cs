@@ -13,6 +13,7 @@ namespace DataStructureDemo
             list.Add(70);
             list.AddInReverseOrder(66);
             list.AddInReverseOrder(77);
+            list.InsertAtParticularPosition(2, 30);
             list.Display();
         }
     }
