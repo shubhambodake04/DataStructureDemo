@@ -13,12 +13,16 @@ namespace DataStructureDemo
             list.Display();
             Console.WriteLine("-----------------------");
 
-            list.AddInReverseOrder(66);
-            list.AddInReverseOrder(77);
+            list.AddInReverseOrder(60);
+            list.AddInReverseOrder(74);
             list.Display(); 
             Console.WriteLine("-----------------------");
 
-            list.InsertAtParticularPosition(2, 30);
+            list.InsertAtParticularPosition(3, 40);
+            list.Display();
+            Console.WriteLine("-----------------------");
+
+            list.SearchValue(60);
             list.Display();
             Console.WriteLine("-----------------------");
 
@@ -28,6 +32,9 @@ namespace DataStructureDemo
 
             list.DeleteLast();
             list.Display();
+            Console.WriteLine("-----------------------");
+
+            
         }
     }
 }
