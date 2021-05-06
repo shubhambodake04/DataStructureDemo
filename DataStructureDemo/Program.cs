@@ -37,7 +37,7 @@ namespace DataStructureDemo
             Console.WriteLine("-----------------------");*/
 
             //Stack
-            LinkedListStack list = new LinkedListStack();
+            /*LinkedListStack list = new LinkedListStack();
             list.push(56);
             list.push(30);
             list.push(70);
@@ -46,6 +46,17 @@ namespace DataStructureDemo
             Console.WriteLine("------------------");
             list.IsEmpty();
             Console.WriteLine("------------------");
+            list.Display();*/
+
+            //Queue
+            LinkedListQueue list = new LinkedListQueue();
+            list.Enqueue(70);
+            list.Enqueue(30);
+            list.Enqueue(56);
+            Console.WriteLine("------------------");
+            list.Display();
+            Console.WriteLine("------------------");
+            list.Dequeue();
             list.Display();
 
 
