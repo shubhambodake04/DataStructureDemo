@@ -57,7 +57,7 @@ namespace DataStructureDemo
         {
             if (this.top == null)
             {
-                Console.WriteLine("Stack is empty, Deletion is not possible");
+                Console.WriteLine("Stack is empty");
                 return;
             }
             Console.WriteLine("Value popped is {0}", this.top.data);
